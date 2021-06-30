@@ -19,6 +19,7 @@ namespace Logical_Programming
                 Console.WriteLine("Enter 6 for Stop Watch");
                 Console.WriteLine("Enter 7 for Vending machine");
                 Console.WriteLine("Enter 8 for Finding day");
+                Console.WriteLine("Enter 9 for Temperature Conversion");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -47,6 +48,9 @@ namespace Logical_Programming
                         DayOfWeek.getDate();
                         break;
                     case 9:
+                        Temperature.getTemperatures();
+                        break;
+                    case 10:
                         return;
                         break;
                 }
