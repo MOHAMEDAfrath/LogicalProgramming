@@ -17,6 +17,7 @@ namespace Logical_Programming
                 Console.WriteLine("Enter 4 for Reverse a number");
                 Console.WriteLine("Enter 5 for Coupon Number");
                 Console.WriteLine("Enter 6 for Stop Watch");
+                Console.WriteLine("Enter 7 for Vending machine");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -39,6 +40,9 @@ namespace Logical_Programming
                         StopwatchProgram.TimeElapsed();
                         break;
                     case 7:
+                        Vending_Machine.FindNoOfNotes();
+                        break;
+                    case 8:
                         return;
                         break;
                 }
