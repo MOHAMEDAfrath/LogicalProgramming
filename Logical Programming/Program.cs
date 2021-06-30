@@ -59,6 +59,9 @@ namespace Logical_Programming
                         SqrtNewton.SqrtUsingNewton();
                         break;
                     case 13:
+                        BinaryNibbles.SwapNibbles();
+                        break;
+                    case 14:
                         return;
                         break;
                 }
