@@ -20,6 +20,7 @@ namespace Logical_Programming
                 Console.WriteLine("Enter 7 for Vending machine");
                 Console.WriteLine("Enter 8 for Finding day");
                 Console.WriteLine("Enter 9 for Temperature Conversion");
+                Console.WriteLine("Enter 10 for Monthly Payment");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -51,6 +52,9 @@ namespace Logical_Programming
                         Temperature.getTemperatures();
                         break;
                     case 10:
+                        MonthlyPayment.GetCompoudInterestParameter();
+                        break;
+                    case 11:
                         return;
                         break;
                 }
