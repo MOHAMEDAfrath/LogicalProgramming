@@ -21,6 +21,7 @@ namespace Logical_Programming
                 Console.WriteLine("Enter 8 for Finding day");
                 Console.WriteLine("Enter 9 for Temperature Conversion");
                 Console.WriteLine("Enter 10 for Monthly Payment");
+                Console.WriteLine("Enter 11 for Newton sqrt");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -55,6 +56,9 @@ namespace Logical_Programming
                         MonthlyPayment.GetCompoudInterestParameter();
                         break;
                     case 11:
+                        SqrtNewton.SqrtUsingNewton();
+                        break;
+                    case 13:
                         return;
                         break;
                 }
