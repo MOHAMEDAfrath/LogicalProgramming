@@ -16,6 +16,7 @@ namespace Logical_Programming
                 Console.WriteLine("Enter 3 for Prime number");
                 Console.WriteLine("Enter 4 for Reverse a number");
                 Console.WriteLine("Enter 5 for Coupon Number");
+                Console.WriteLine("Enter 6 for Stop Watch");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -33,6 +34,9 @@ namespace Logical_Programming
                         break;
                     case 5:
                         CouponNumber.CouponGenerator();
+                        break;
+                    case 6:
+                        StopwatchProgram.TimeElapsed();
                         break;
                     case 7:
                         return;
