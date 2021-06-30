@@ -12,6 +12,7 @@ namespace Logical_Programming
                 Console.WriteLine("Choose an Option: ");
                 Console.WriteLine("Enter 1 for Finonacci Series");
                 Console.WriteLine("Enter 2 for Perfect Number");
+                Console.WriteLine("Enter 3 for Prime number");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -21,9 +22,11 @@ namespace Logical_Programming
                     case 2:
                         PerfectNumber.CheckPerfectNumber();
                         break;
+                    case 3:
+                        PrimeNumber.PrimeNumberBetweenInterval();
+                        break;
 
-
-                    case 5:
+                    case 7:
                         return;
                         break;
                 }
