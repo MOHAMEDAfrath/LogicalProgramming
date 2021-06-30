@@ -10,7 +10,8 @@ namespace Logical_Programming
             while (true)
             {
                 Console.WriteLine("Choose an Option: ");
-                Console.WriteLine("Enter 1 for Finonacci Series / Enter 2 to Exit");
+                Console.WriteLine("Enter 1 for Finonacci Series");
+                Console.WriteLine("Enter 2 for Perfect Number");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -18,6 +19,11 @@ namespace Logical_Programming
                         Fibonacci.FibonacciSeries();
                         break;
                     case 2:
+                        PerfectNumber.CheckPerfectNumber();
+                        break;
+
+
+                    case 5:
                         return;
                         break;
                 }
