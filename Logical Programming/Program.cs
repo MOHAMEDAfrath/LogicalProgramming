@@ -18,6 +18,7 @@ namespace Logical_Programming
                 Console.WriteLine("Enter 5 for Coupon Number");
                 Console.WriteLine("Enter 6 for Stop Watch");
                 Console.WriteLine("Enter 7 for Vending machine");
+                Console.WriteLine("Enter 8 for Finding day");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -43,6 +44,9 @@ namespace Logical_Programming
                         Vending_Machine.FindNoOfNotes();
                         break;
                     case 8:
+                        DayOfWeek.getDate();
+                        break;
+                    case 9:
                         return;
                         break;
                 }
