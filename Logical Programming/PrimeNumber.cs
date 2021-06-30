@@ -8,6 +8,10 @@ namespace Logical_Programming
 {
     class PrimeNumber
     {
+        /// <summary>
+        /// Primes the number between interval.
+        /// </summary>
+
         public static void PrimeNumberBetweenInterval()
         {
             int flag;
