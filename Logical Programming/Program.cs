@@ -22,6 +22,9 @@ namespace Logical_Programming
                 Console.WriteLine("Enter 9 for Temperature Conversion");
                 Console.WriteLine("Enter 10 for Monthly Payment");
                 Console.WriteLine("Enter 11 for Newton sqrt");
+                Console.WriteLine("Enter 12 for Binary Conversion");
+                Console.WriteLine("Enter 13 Nibble swap:");
+                Console.WriteLine("Enter 14 for Exit");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -57,6 +60,9 @@ namespace Logical_Programming
                         break;
                     case 11:
                         SqrtNewton.SqrtUsingNewton();
+                        break;
+                    case 12:
+                        BinaryConversion.Binary();
                         break;
                     case 13:
                         BinaryNibbles.SwapNibbles();
