@@ -15,6 +15,7 @@ namespace Logical_Programming
         {
             Console.WriteLine("Enter the number:");
             int x = Convert.ToInt32(Console.ReadLine());
+            ///Shifting bits left | Shifting bits right
             int result = ((x & 0x0F) << 4 | (x & 0xF0) >> 4);
             Console.WriteLine("After nibble swaps: "+result);
             int temp = result;
