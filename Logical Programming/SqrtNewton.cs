@@ -17,10 +17,8 @@ namespace Logical_Programming
             double number = Convert.ToDouble(Console.ReadLine());
             double t = number;
             double root;
-            int count = 0;
             while (true)
             {
-                count++;
                 root = 0.5 * (t + (number / t));
                 if (Math.Abs(root - t) < 0.00001)
                     break;
